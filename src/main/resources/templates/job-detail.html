@@ -18,11 +18,11 @@
             <th>Core Competency</th>
         </tr>
         <tr th:object="${job}">
-            <td th:text="*{job.getName}"></td>
-            <td th:text="*{job.getEmployer.getValue()}"></td>
-            <td th:text="*{job.getLocation.getValue()}"></td>
-            <td th:text="*{job.getPositionType.getValue()}"></td>
-            <td th:text="*{job.getCoreCompetency.getValue()}"></td>
+            <td th:text="*{name}"></td>
+            <td th:text="*{employer}"></td>
+            <td th:text="*{location}"></td>
+            <td th:text="*{positionType}"></td>
+            <td th:text="*{coreCompetency}"></td>
         </tr>
 
 
